@@ -1,101 +1,93 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
-# C extensions
-*.so
+# Icon must end with two \r
+Icon
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Thumbnails
+._*
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+### PhpStorm ###
+.idea/
 
-# Translations
-*.mo
-*.pot
+# CMake
+cmake-build-debug/
 
-# Django stuff:
-*.log
-local_settings.py
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
 
-# Flask stuff:
-instance/
-.webassets-cache
+## File-based project format:
+*.iws
 
-# Scrapy stuff:
-.scrapy
+## Plugin-specific files:
 
-# Sphinx documentation
-docs/_build/
+# IntelliJ
+/out/
 
-# PyBuilder
-target/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-# pyenv
-.python-version
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-# celery beat schedule file
-celerybeat-schedule
+# Ruby plugin and RubyMine
+/.rakeTasks
 
-# SageMath parsed files
-*.sage.py
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-# dotenv
-.env
+### PhpStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# virtualenv
-.venv
-venv/
-ENV/
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Sonarlint plugin
+.idea/sonarlint
 
-# Rope project settings
-.ropeproject
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# mkdocs documentation
-/site
+# Folder config file
+Desktop.ini
 
-# mypy
-.mypy_cache/
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
