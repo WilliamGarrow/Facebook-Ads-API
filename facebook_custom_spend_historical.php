@@ -1,6 +1,6 @@
 <?php
 
-$appRoot = dirname(__FILE__) . '<PATH>';
+$appRoot = dirname(__FILE__) . '<YOUR PATH>';
 require_once $appRoot . 'config.php';
 require_once $appRoot . 'load.php';
 global $userdb;
@@ -11,10 +11,10 @@ use FacebookAds\Object\AdsInsights;
 use FacebookAds\Api;
 use FacebookAds\Logger\CurlLogger;
 
-$access_token = '<ACCESSTOKEN>';
-$ad_account_id = '<ADACCOUNTID>';
-$app_secret = '<APPSECRET>';
-$app_id = '<APPID>';
+$access_token = '<YOUR ACCESS TOKEN>';
+$ad_account_id = '<YOUR AD ACCOUNT ID>';
+$app_secret = '<YOUR APP SECRET>';
+$app_id = '<YOUR APP ID>';
 $api = Api::init($app_id, $app_secret, $access_token);
 $api->setLogger(new CurlLogger());
 
@@ -58,7 +58,7 @@ for ($from_day = $from; $from_day < $to; $from_day = strtotime('+1 day', $from_d
             'campaign_name' => $data['campaign_name'],
             'channel' => 'facebook',
             'lead_source' => 'Facebook Paid',
-            'affiliate' => '<AFFILIATE>',
+            'affiliate' => '<YOUR AFFILIATE INFO>',
         );
 
         $userdb->insert('daily_ad_spend', $insertData);
